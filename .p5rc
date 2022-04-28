@@ -1,4 +1,6 @@
 {
   "name": "nature_of_code",
-  "projects": []
+  "projects": [
+    "00_intro_walker"
+  ]
 }
