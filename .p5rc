@@ -1,6 +1,10 @@
 {
   "name": "nature_of_code",
   "projects": [
-    "00_intro_walker"
+    "00_l1_intro_walker",
+    "00_l4_intro_gaussian",
+    "00_l4_splatter",
+    "00_l5_gaussian_walk",
+    "00_l6_randomwalker_montecarlo"
   ]
 }

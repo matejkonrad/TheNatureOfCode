@@ -3,17 +3,17 @@ function Walker() {
   let y = height / 2;
 
   const display = () => {
-    point(x, y);
+    ellipse(x, y, 10, 10);
   };
 
   const step = () => {
-    const randy = parseInt(random(0, 4));
+    const r = random(1);
 
-    if (randy === 0) {
+    if (r < 0.4) {
       x++;
-    } else if (randy === 1) {
+    } else if (r < 0.6) {
       x--;
-    } else if (randy === 2) {
+    } else if (r < 0.8) {
       y++;
     } else {
       y--;
