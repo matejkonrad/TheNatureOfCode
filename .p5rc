@@ -5,6 +5,19 @@
     "00_l4_intro_gaussian",
     "00_l4_splatter",
     "00_l5_gaussian_walk",
-    "00_l6_randomwalker_montecarlo"
+    "00_l6_randomwalker_mc",
+    "00_l8_2d_perlin",
+    "00_l10_perlin_land",
+    "01_1_2_bouncing",
+    "01_1_5_mag",
+    "01_1_7_velocity",
+    "01_1_8_acceleration",
+    "01_1_9_randomAcc",
+    "01_1_10_mouse_acc",
+    "02_01_forces",
+    "02_03_force_earth",
+    "02_04_friction",
+    "02_05_drag",
+    "02_06_attractor"
   ]
 }
