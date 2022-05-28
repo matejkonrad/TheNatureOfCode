@@ -18,9 +18,35 @@ function Mover(_loc, _vel, _acc, _mass) {
 
   const display = () => {
     // stroke(0);
-		noStroke()
-    fill(200, 10);
-    ellipse(location.x, location.y, mass * 16, mass * 16);
+    noStroke();
+    fill('green');
+    ellipse(
+      location.x + random(-2, 2),
+      location.y + random(-2, 2),
+      mass * 16,
+      mass * 16
+    );
+    fill('red');
+    ellipse(
+      location.x + random(-2, 2),
+      location.y + random(-2, 2),
+      mass * 16,
+      mass * 16
+    );
+    fill('blue');
+    ellipse(
+      location.x + random(-2, 2),
+      location.y + random(-2, 2),
+      mass * 16,
+      mass * 16
+    );
+    fill(200);
+    ellipse(
+      location.x,
+      location.y,
+      mass * 16,
+      mass * 16
+    );
   };
 
   const checkEdges = () => {
@@ -78,7 +104,7 @@ let attractor;
 function setup() {
   createCanvas(900, 900);
 
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 100; i++) {
     movers.push(
       Mover(
         createVector(random(width), random(height)),
@@ -90,11 +116,11 @@ function setup() {
   }
 
   attractor = Attractor();
-  background(0);
 }
 
 function draw() {
   // attractor.display();
+  background(0);
   movers.forEach((mov) => {
     const attraction = attractor.attract(mov);
 
