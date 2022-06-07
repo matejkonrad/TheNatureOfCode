@@ -22,6 +22,8 @@
     "02_07_everything",
     "03_01_anglemotion",
     "03_03_dir_mouse",
-    "03_04_polar_cart"
+    "03_04_polar_cart",
+    "03_06_harmonic",
+    "03_07_osc_obj"
   ]
 }
