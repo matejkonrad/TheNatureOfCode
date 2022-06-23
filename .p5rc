@@ -26,6 +26,7 @@
     "03_06_harmonic",
     "03_07_osc_obj",
     "03_08_wave",
-    "03_09_movingwave"
+    "03_09_movingwave",
+    "03_10_pendulum"
   ]
 }
